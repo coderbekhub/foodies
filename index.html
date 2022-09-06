@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Foodies</title>
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="icon" href="img/logo.svg">
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <section class="sitebar_section">
+      <nav class="site_bar">
+        <div class="logo_brand ">
+          <img class="brand" src="img/logo.svg" alt="logo">
+          <h1 class="site_heading">Foodies</h1>
+          <a class="burger" href="#">
+            <i class='bx bx-menu burger_icon'></i>
+          </a>
+        </div>
+
+        <ul class="nav_list">
+          <li><a class="dashboard" href="#">Dashboard</a></li>
+          <li><a class="orders" href="#">Orders</a></li>
+          <li><a class="menu" href="#">Menu</a></li>
+          <li><a class="customer" href="#">Customer</a></li>
+          <li><a class="payment" href="#">Payment</a></li>
+          <li><a class="analytics" href="#">Analytics</a></li>
+          <li><a class="setting" href="#">Setting</a></li>
+          <li><a class="logout" href="#">Logout</a></li>
+        </ul>
+
+        <div class="nav_card">
+          <h2 class="nav_card-title">Organize your menus throgh bellow button</h2>
+          <a class="add_menus" href="#">Add Menus</a>
+        </div>
+      </nav>
+
+      <section class="header_section">
+        <div class="header_content">
+          <input type="search" required placeholder="Search here">
+          <div class="header_img-content">
+            <img class="header_img shopping" src="img/shopping.svg" alt="shopping">
+            <span class="header_num1">25</span>
+            <img class="header_img message" src="img/message.svg" alt="message">
+            <span class="header_num2">2</span>
+            <img class="header_img bell" src="img/bell.svg" alt="bell">
+            <span class="header_num3">5</span>
+          </div>
+          <a href="#">Hello! Alex Grifline</a>
+        </div>
+
+        <div class="order_content">
+          <p>Order ID #526429</p>
+          <a href="#">ON DELIVERY</a>
+        </div>
+        <p class="order_details"><span>Order</span> / Order Details</p>
+
+        <main id="site_main">
+          <section class="customer_section">
+            <div class="customer_content">
+              <div class="customer_profile">
+                <img class="customer_img" src="img/customer_img.svg" alt="customer_img">
+                <h2>Zara Wardany</h2>
+                <p class="customer_text">Customer</p>
+                <div class="customer_card">
+                  <h3>Order Notes</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque, ultrices eget tincidunt.</p>
+                  <div class="delivery_content flex">
+                    <img src="img/delivery_img.svg" alt="delivery_img">
+                    <h4>6th Avinew #26 London</h4>
+                  </div>
+                </div>
+              </div>
+
+              <div class="table_content">
+                <div class="table_nav">
+                  <h2>Items</h2>
+                  <div class="table_nav_items">
+                    <span>Qty</span>
+                    <span>Price</span>
+                    <span>Total Price</span>
+                  </div>
+                </div>
+
+                <div class="table_info">
+                  <div class="foodies_info">
+                    <img class="table_food-img" src="img/table_img1.svg" alt="food img">
+                    <div class="foodies_info_sec">
+                      <h3 class="table_title">Main Course</h3>
+                      <p class="table_text">Cooked meat and veggies kebab</p>
+                      <img class="star_icon" src="img/star_icon.svg" alt="star_icon">
+                      <img class="star_icon" src="img/star_icon.svg" alt="star_icon">
+                      <img class="star_icon" src="img/star_icon.svg" alt="star_icon">
+                      <img class="star_icon" src="img/star_icon.svg" alt="star_icon">
+                      <img class="star_icon" src="img/half_star_icon.svg" alt="star_icon">
+                      <span class="reviews">(56 reviews)</span>
+                    </div>
+
+                    <div class="price_info">
+                      <span class="qty">5x</span>
+                      <span class="price">$14.25</span>
+                      <span class="total_price">$70.25</span>
+                    </div>
+                  </div>
+                  <div class="foodies_info">
+                    <img class="table_food-img" src="img/table_img2.svg" alt="food img">
+                    <div class="foodies_info_sec">
+                      <h3 class="table_title">Main Course</h3>
+                      <p class="table_text">Cooked meat and veggies kebab</p>
+                      <img class="star_icon" src="img/star_icon.svg" alt="star_icon">
+                      <img class="star_icon" src="img/star_icon.svg" alt="star_icon">
+                      <img class="star_icon" src="img/star_icon.svg" alt="star_icon">
+                      <img class="star_icon" src="img/star_icon.svg" alt="star_icon">
+                      <img class="star_icon" src="img/half_star_icon.svg" alt="star_icon">
+                      <span class="reviews">(45 reviews)</span>
+                    </div>
+
+                    <div class="price_info">
+                      <span class="qty">8x</span>
+                      <span class="price">$10.85</span>
+                      <span class="total_price">$80.85</span>
+                    </div>
+                  </div>
+                  <div class="foodies_info disactive">
+                    <img class="table_food-img" src="img/table_img3.svg" alt="food img">
+                    <div class="foodies_info_sec">
+                      <h3 class="table_title">Main Course</h3>
+                      <p class="table_text">Cooked meat and veggies kebab</p>
+                      <img class="star_icon" src="img/star_icon.svg" alt="star_icon">
+                      <img class="star_icon" src="img/star_icon.svg" alt="star_icon">
+                      <img class="star_icon" src="img/star_icon.svg" alt="star_icon">
+                      <img class="star_icon" src="img/star_icon.svg" alt="star_icon">
+                      <img class="star_icon" src="img/half_star_icon.svg" alt="star_icon">
+                      <span class="reviews">(29 reviews)</span>
+                    </div>
+
+                    <div class="price_info">
+                      <span class="qty">2x</span>
+                      <span class="price">$15.99</span>
+                      <span class="total_price">$30.99</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <section class="delivery_section">
+              <div class="delivery_content_sec">
+                <div class="order_card">
+                  <h2>Order Notes</h2>
+                  <div class="delivery_work_list">
+                    <h3 class="delivery_work_title delivery_work_active">Order Delivered</h3>
+                    <p class="delivery_work_text">Sun, 01 Aug 2021, 05:30 PM</p>
+                  </div>
+                  <div class="delivery_work_list">
+                    <h3 class="delivery_work_title delivery_work_dis-active">On Order</h3>
+                    <p class="delivery_work_text">Sun, 01 Aug 2021, 04:15 PM</p>
+                  </div>
+                  <div class="delivery_work_list">
+                    <h3 class="delivery_work_title delivery_work_dis-active">Payment Sucess</h3>
+                    <p class="delivery_work_text">Sun, 01 Aug 2021, 03:46 PM</p>
+                  </div>
+                  <div class="delivery_work_list">
+                    <h3 class="delivery_work_title delivery_work_dis-active">Order Created</h3>
+                    <p class="delivery_work_text">Sun, 01 Aug 2021, 03:45 PM</p>
+                  </div>
+                </div>
+
+                <div class="delivery_info">
+                  <div class="delivery_map">
+                    <img class="delivery_tracking" src="img/delivery_tracking.svg" alt="delivery_tracking">
+                    <img class="delivery_router" src="img/delivery_router.svg" alt="delivery_router">
+                  </div>
+
+                  <h2 class="delivery_heading">Delivery Boy</h2>
+                  <div class="delivery_content-sec">
+                    <div class="delivery_infos">
+                      <div class="flex">
+                        <img class="boy_img" src="img/boy_img.svg" alt="boy_img">
+                        <div>
+                          <h3 class="delivery_name">David Morel</h3>
+                          <p class="delivery_ball">4.9 based on 100 ratings</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="flex delivery_infos">
+                      <div class="flex">
+                        <img class="delivery_phone" src="img/delivery_phone.svg" alt="delivery_phone">
+                        <div>
+                          <h3 class="delivery_name">Phone</h3>
+                          <p class="delivery_ball">+15 4602 8587</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="flex delivery_infos">
+                      <div class="flex">
+                        <img class="delivery_phone" src="img/delivery_car.svg" alt="delivery_car">
+                        <div>
+                          <h3 class="delivery_name">Delivery Time</h3>
+                          <p class="delivery_ball">05:30 PM</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </section>
+        </main>
+      </section>
+    </section>
+  </div>
+</body>
+
+</html>
